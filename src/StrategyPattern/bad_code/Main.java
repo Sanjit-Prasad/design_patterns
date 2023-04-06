@@ -1,4 +1,4 @@
-package strategy_design_pattern.bad_code;
+package StrategyPattern.bad_code;
 
 public class Main {
     public static void main(String[] args) {

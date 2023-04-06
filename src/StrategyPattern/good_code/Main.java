@@ -1,4 +1,4 @@
-package strategy_design_pattern.good_code;
+package StrategyPattern.good_code;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package strategy_design_pattern.good_code;
+package StrategyPattern.good_code;
 
-import strategy_design_pattern.good_code.DriveStrategy.DriveStrategy;
+import StrategyPattern.good_code.DriveStrategy.DriveStrategy;
 
 public class Vehicle {
     // This is strategy design principle. Here we are not defining the drive strategy for vehicle, but child of Vehicle
