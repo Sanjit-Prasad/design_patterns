@@ -1,7 +1,6 @@
 package AbstractFactoryPattern;
 
 import AbstractFactoryPattern.Vehicle.Vehicle;
-import AbstractFactoryPattern.VehicleFactory.LuxuryVehicleFactory;
 import AbstractFactoryPattern.VehicleFactory.VehicleFactory;
 import AbstractFactoryPattern.VehicleFactory.VehicleFactoryMain;
 
