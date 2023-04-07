@@ -10,6 +10,7 @@ public class EmailAlertObserverImpl implements NotificationAlertObserver {
     public EmailAlertObserverImpl(String email, StockObservable stockObservable) {
         this.stockObservable = stockObservable;
         this.email = email;
+        this.stockObservable.add(this);
     }
 
     @Override
