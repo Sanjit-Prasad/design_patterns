@@ -7,5 +7,6 @@ public class Main {
         logProcessor.log(LogProcessor.INFO, "info message");
         logProcessor.log(LogProcessor.DEBUG, "debug message");
         logProcessor.log(LogProcessor.ERROR, "error message");
+//        logProcessor.log(4, "Invalid log method called");
     }
 }

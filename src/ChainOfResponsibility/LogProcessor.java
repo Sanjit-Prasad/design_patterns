@@ -16,5 +16,8 @@ public abstract class LogProcessor {
         if (nextLogProcessor!=null) {
             nextLogProcessor.log(logLevel, message);
         }
+        else {
+            throw new AssertionError("Invalid log method: " + logLevel);
+        }
     }
 }
