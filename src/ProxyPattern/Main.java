@@ -8,20 +8,20 @@ import ProxyPattern.Proxy.EmployeProxyImpl;
 public class Main {
     public static void main(String[] args) {
         EmployeImpl employeAdmin = new EmployeImpl(EmployeeType.ADMIN);
-        Employe employe = new EmployeProxyImpl(employeAdmin);
+        EmployeProxyImpl employeProxy = new EmployeProxyImpl(employeAdmin);
 
-        employe.createEmployee();
-        employe.deleteEmployee();
-        employe.getEmployee();
+        employeProxy.createEmployee();
+        employeProxy.deleteEmployee();
+        employeProxy.getEmployee();
 
         System.out.println();
 
         EmployeImpl employeUser = new EmployeImpl(EmployeeType.USER);
-        Employe employe1 = new EmployeProxyImpl(employeUser);
+        employeProxy = new EmployeProxyImpl(employeUser);
 
-        employe1.createEmployee();
-        employe1.deleteEmployee();
-        employe1.getEmployee();
+        employeProxy.createEmployee();
+        employeProxy.deleteEmployee();
+        employeProxy.getEmployee();
 
     }
 }
